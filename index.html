@@ -3,14 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title> SEO Structure for HTML </title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -19,23 +15,78 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<div id="page">
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </nav>
+
+    <nav>
+      <h1><a href="index.html">LOGO</a></h1>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <!--    Intro/Homepage section-->
+    <section class="sc intro">
+      <h1>Lorem ipsum dolor sit</h1>
+      <p>Welcome to Homepage</p>
+    </section>
+
+    <!--    Partners section-->
+    <section class="sc partners">
+      <figure>
+        <img
+          src="https://vignette.wikia.nocookie.net/leagueoflegends/images/0/03/Arcane_Series_Logo.jpg/revision/latest/zoom-crop/width/480/height/480?cb=20191016080418"
+          alt="No photo here perro, it died."/>
+      </figure>
+      <div class="container">
+        <h3>SubHeadline</h3>
+        <h2>Headline</h2>
+        <a href="#" class="Button">More info...</a>
+      </div>
+    </section>
+
+    <!--    Products section-->
+    <section class="sc products">
+      <h1>Our Products</h1>
+      <p>Lorem Ipsum Dolor Sit</p>
+    </section>
+  </main>
+
+  <footer>
+    <section class="sc Brand"></section>
+    <!--Homework:
+    1.From line 53 (figure) copy and paste the code for figure and image
+    and link a different image.
+    -->
+    <section class="sc Legal"></section>
+    <!-- Homework:
+      create a nav and make an unorganized list [UL] with 3 items with text :
+      1. list item for copyrights and company name
+      2.list item for privacy policy [with an anchor, tag and href]
+      3.list items for terms and conditions [with an anchor, tag and href]
+
+       -->
+  </footer>
+
+</div>
+
 </body>
 
 </html>
